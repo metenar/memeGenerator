@@ -50,23 +50,25 @@ input[type="text"]{
     
 }
 .memeImageDiv{
-    width:60%
+    width:80%
 }
 
 .topTextDiv{
     
     position: absolute;
     text-transform: uppercase;
+    text-shadow: black;
+    font-size: 25px;
     top:8px;
-    color: black;
-    left: 150px;
+    color:white;
+    left: 50px;
 }
 .bottomTextDiv {
     position: absolute;  
     text-transform: uppercase;
     bottom: 8px;
     color: black;
-    left:150px;
+    left:100px;
     
 }
 
