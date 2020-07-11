@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: darkseagreen;
+    padding-top: 10px;
+}
+#title{
+    text-align: center;
+    color: rebeccapurple;
+}
+.formContainer {
+    min-width: 700px;
+    max-width: 1000px;
+    border: 2px solid darkviolet;   
+    padding-top: 10px; 
+    margin-left: 150px;
+}
+input[type="text"]{
+    color: dimgray;
+    display: block;
+    width:90%;
+    line-height: 1.5rem;
+    border-radius: 10px;
+    background-color: gainsboro;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#createButton {
+    margin-left: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    background-color: navy;
+    color: papayawhip;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.label {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.memeElement{
+    width:600px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.memeContainer{
+    position: relative;
+    
+    
+}
+.memeImageDiv{
+    width:60%
+}
+
+.topTextDiv{
+    
+    position: absolute;
+    text-transform: uppercase;
+    top:8px;
+    color: black;
+    left: 150px;
+}
+.bottomTextDiv {
+    position: absolute;  
+    text-transform: uppercase;
+    bottom: 8px;
+    color: black;
+    left:150px;
+    
+}
+
+.newButton {
+    position: absolute;
+    top:50%;
+    left: 70%;
+    
+    
+}
+button{
+    background-color: rgba(255,0,0,0.3);
+    color: white;
+
+}
+::placeholder{
+    color: black;
+    opacity: 0.4;
+}
